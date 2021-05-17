@@ -36,7 +36,6 @@ def display():
     
 
 def init():
-    #ga.initial_population()
     init_gen = []
     gen = []
 
@@ -64,12 +63,7 @@ if __name__ == '__main__':
     ole_Gen_schedule_fitness = ga.fitness(copy.deepcopy(ole_Gen_schedule))
     count = 1
     
-    #while (ga.fitness(copy.deepcopy(loopGen[0])) <= ole_Gen_schedule_fitness):
     while(ga.fitness(copy.deepcopy(loopGen[0])) < 300 ):
-        #if count > 100:
-            #break
-        #if count > 1:
-            #break
         if ga.fitness(copy.deepcopy(loopGen[1])) > 300 and count > 1:
             break
         newGen = []
@@ -89,10 +83,8 @@ if __name__ == '__main__':
         mutationGen = []
         crossoverGen2 = copy.deepcopy(crossoverGen)
         for crossoverPopu in crossoverGen2:
-            #mutationGen.append(ga.mutation_1(copy.deepcopy(ga.mutation(crossoverPopu))))
             temp = ga.mutation(crossoverPopu)
             mutationGen.append(temp)
-            #mutationGen.append(ga.mutation_1(temp))
             
         print("Mutation:")
         print(ga.fitness(mutationGen[0]))
@@ -123,13 +115,11 @@ if __name__ == '__main__':
         secondIndex = 1
     else:
         secondIndex = 0
-    #final_schedule = copy.deepcopy(loopGen[finalGenIndex])
     final_schedule = copy.deepcopy(loopGen[finalGenIndex])
     final_schedule_2 = copy.deepcopy(loopGen[secondIndex])
     final_schedule_fitness = ga.fitness(copy.deepcopy(final_schedule))
     final_schedule_fitness_2 = ga.fitness(copy.deepcopy(final_schedule_2))
     run(host='0.0.0.0', port=8080)
-        #print(loopGen[finalGenIndex])
         
         
 

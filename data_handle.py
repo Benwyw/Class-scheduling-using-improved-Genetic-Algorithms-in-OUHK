@@ -21,24 +21,24 @@ def put_course():
     db.execute("CREATE TABLE course (courseid TEXT PRIMARY KEY, coursename TEXT NOT NULL, coursemax INTEGER NOT NULL, courseitem TEXT NOT NULL,school TEXT NOT NULL, type TEXT NOT NULL)")
     #BCOMPHITJ Year 1
     db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('IT S102F', 'Computing Fundamentals', 90, 'COMP', 'ST', 'Normal')")
-    # db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('IT S103F', 'Introduction to Internet Application Development', 90, 'COMP', 'ST', 'Normal')")
     db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S208F', 'Introduction to Computer Programming', 90, 'COMP', 'ST', 'Normal')")
+    # db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('IT S103F', 'Introduction to Internet Application Development', 90, 'COMP', 'ST', 'Normal')")
     # db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S209F', 'Data Structures, Algorithms, and Problem Solving', 90, '', 'ST', 'Normal')")
 
     #BCOMPHITJ Year 2
     db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S202F', 'Java Programming Fundamentals', 90, 'COMP', 'ST', 'Normal')")
-    # db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S203F', 'Intermediate Java Programming and User Interface Design', 90, 'COMP', 'ST', 'Normal')")
     db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S264F', 'Discrete Mathematics', 90, '', 'ST', 'Normal')")
+    # db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S203F', 'Intermediate Java Programming and User Interface Design', 90, 'COMP', 'ST', 'Normal')")
     # db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S265F', 'Design and Analysis of Algorithms', 90, '', 'ST', 'Normal')")
 
     #BCOMPHITJ Year 3
     db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S266F', 'Computer Architecture', 90, '', 'ST', 'Normal')")
-    # db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S267F', 'Operating Systems', 90, '', 'ST', 'Normal')")
     db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S312F', 'Java Application Development', 90, 'COMP', 'ST', 'Normal')")
-    # db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S313F', 'Mobile Computing', 90, 'COMP', 'ST', 'Normal')")
     db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S320F', 'Database Management', 90, 'COMP', 'ST', 'Normal')")
-    # db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S321F', 'Advanced Database and Data Warehousing', 90, 'COMP', 'ST', 'Normal')")
     db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S350F', 'Software Engineering', 90, 'COMP', 'ST', 'Normal')")
+    # db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S267F', 'Operating Systems', 90, '', 'ST', 'Normal')")
+    # db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S313F', 'Mobile Computing', 90, 'COMP', 'ST', 'Normal')")
+    # db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S321F', 'Advanced Database and Data Warehousing', 90, 'COMP', 'ST', 'Normal')")
     # db.execute("INSERT INTO course (courseid, coursename, coursemax, courseitem, school, type) VALUES ('COMP S351F', 'Software Project Management', 90, 'COMP', 'ST', 'Normal')")
 
     #BCOMPHITJ Year 4

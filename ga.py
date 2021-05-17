@@ -436,13 +436,13 @@ def initial_population():
 
 
 def fitness(programList):
-# Divided year and divded programme
-# e.G
-# ['BCOMPHITJS', 4, [], [], [], [('COMP S456F L01', 'Software System Development Project', 'Lecture', 90, '', 'ST', 'FYP', 'C0518', 'Thu 9 - 11'), ('COMP S451F L01', 'Computing Project', 'Lecture', 90, '', 'ST', 'FYP', 
-#'C0518', 'Thu 9 - 11')], []]
-# [0] is programme name
-# [1] is year
-# Mon[2] Tue[3] Wed[4] Thu[5] Fri[6]
+    # Divided year and divded programme
+    # e.G
+    # ['BCOMPHITJS', 4, [], [], [], [('COMP S456F L01', 'Software System Development Project', 'Lecture', 90, '', 'ST', 'FYP', 'C0518', 'Thu 9 - 11'), ('COMP S451F L01', 'Computing Project', 'Lecture', 90, '', 'ST', 'FYP', 
+    #'C0518', 'Thu 9 - 11')], []]
+    # [0] is programme name
+    # [1] is year
+    # Mon[2] Tue[3] Wed[4] Thu[5] Fri[6]
     # allList[0] => programme name
     # allList[1] => Year
     # allList[2] => pathList split each path to calculate

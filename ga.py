@@ -1108,6 +1108,7 @@ def fitness(programList):
             #print('friList',friList)
             #print('groupScore:',groupScore)
             #print()
+    fitnessScore += 50*3 #by default, HC1~3 granted
     if HC4:
         fitnessScore += 50
         #print("HC4 OK")

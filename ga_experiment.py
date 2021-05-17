@@ -65,12 +65,12 @@ if __name__ == '__main__':
     count = 1
     
     #while (ga.fitness(copy.deepcopy(loopGen[0])) <= ole_Gen_schedule_fitness):
-    while(ga.fitness(copy.deepcopy(loopGen[0])) < 150 ):
+    while(ga.fitness(copy.deepcopy(loopGen[0])) < 300 ):
         #if count > 100:
             #break
         #if count > 1:
             #break
-        if ga.fitness(copy.deepcopy(loopGen[1])) >= 150 and count > 1:
+        if ga.fitness(copy.deepcopy(loopGen[1])) > 300 and count > 1:
             break
         newGen = []
 

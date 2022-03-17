@@ -102,7 +102,7 @@ Mp4
 
 ### Data
 
-Able to make use of [FYP-Life-Easier](https://github.com/OP-Banana/FYP-Life-Easier) to convert into variables. Yet, did not adopt such a way in the end. Instead, we manually entered the data. 
+Able to make use of [FYP-Life-Easier](https://github.com/Benwyw/FYP-Life-Easier/) to convert into variables. Yet, did not adopt such a way in the end. Instead, we manually entered the data. 
 
 Pdf
 * [Course Timetable](https://drive.google.com/drive/folders/11W5Rjq4qVWOZANuX7iABzxBQTT5oFiU5?usp=sharing)

@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/OP-Banana/Class-scheduling-using-improved-Genetic-Algorithms-in-OUHK">
+  <a href="https://github.com/Benwyw/Class-scheduling-using-improved-Genetic-Algorithms-in-OUHK">
     <img src="http://www.ouhk.edu.hk/PAU/AboutOUHK/University_identity/OUHK-logo.png" alt="Logo" height="80">
   </a>
 
@@ -14,8 +14,8 @@
     <br />
     <br />
     <a href="https://computing.ouhk.edu.hk/student/programme/BCOMPHITJ-SU71/FYPTopicList">FYP Topics</a>
-    .
-    <a href="https://computing.ouhk.edu.hk/student/programme/BCOMPHITJ-SU71/FYPAllocation">FYP Groups</a>
+    <!--.
+    <a href="https://computing.ouhk.edu.hk/student/programme/BCOMPHITJ-SU71/FYPAllocation">FYP Groups</a>-->
     .
     <a href="https://docs.google.com/spreadsheets/d/1iyono67a1VzAuEvJoSJGaO6ed2OjpOv1jS_b4DMcrAQ/edit#gid=1180241919">FYP Schedule</a>
     ·
